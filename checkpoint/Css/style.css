@@ -1,0 +1,127 @@
+.nav{
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+.image {
+  width:100%;
+  height:600px;
+}
+.lien {
+  font-family:  sans-serif;
+  color: white;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+.logo{
+  width: 50px;
+  height: 50px;
+}
+li{
+  display: inline-block;
+  margin-left: 180px;
+  justify-content: center;
+}
+a:hover{
+  color:red
+}
+
+body{
+  background: Linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+
+ Linear-gradient(127deg, black, black 70.71%),
+
+ Linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+
+  margin: 0;
+  padding:0; 
+}
+
+.cover {
+  width: 100%;
+  height: 450px;
+  padding: 20px;
+  background-image: url(../Image/back.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: 0 3px 2px rgba(0, 0, 0, .5);
+  box-sizing: border-box;
+}
+
+.header{
+  margin-top: 0;
+  font-size: 6em;
+  font-family: 'Bree Serif', serif;
+  color: #fff;
+  top: 20%;
+  text-align: center;
+  text-shadow: 5px 2px rgb(12, 11, 11);
+  align-items: center;
+  margin-bottom: 50px;
+}
+.courses{
+  margin-top: 5%;
+}
+
+.row{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2%;
+}
+
+.row img{
+  margin-right: 4% ;
+}
+
+.courses-form{
+  text-align: center;
+  margin: 20px 0;
+}
+
+.courses-form h4{
+  color: white;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 1.1;
+  margin-bottom: 30px;
+}
+
+.buttons{
+  margin-bottom: 20px;
+}
+.input-groupe{
+  text-align: center;
+  color: white;
+}
+
+.input-contact{
+  display: block;
+  margin: 10px auto;
+  width: 20%;
+  height: 20px;
+  border-radius:5px ;
+}
+
+.contact-form{
+  margin: 30px 0 ;
+}
+
+.submit{
+  width: 80px;
+  height: 29px;
+  margin-top: 10px;
+  border-radius: 3px ;
+  background-color: #337ab7 ;
+  border-color: #337ab7;
+  color: white;
+}
+
+#txt {
+  max-width: 300px;
+  max-height: 300px;
+  width: 300px;
+  height: 300px;
+}
